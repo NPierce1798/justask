@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 
 function Hero() {
 
@@ -8,7 +8,7 @@ function Hero() {
       
             <p className="hero__heading">Build Your Dreams With Us</p>
             <p className="hero__p">Schedule A Free Project Estimate Today!</p>
-            <button href='https://calendly.com/justaskcodes23/30min' target="_blank" className="hero__button" >Schedule A Session!</button>
+            <Link  to='https://calendly.com/justaskcodes23/30min' target="_blank" ><button className="hero__button" >Schedule A Session</button></Link>
       
         </div>
 
