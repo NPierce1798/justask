@@ -5,7 +5,7 @@ class Video extends React.Component {
     render() {
       const options = {
         height: '390',
-        width: '640',
+        width: '100%',
         margin: 'auto',
         playerVars: {
           autoplay: 1,
@@ -13,7 +13,7 @@ class Video extends React.Component {
         },
       };
   
-      return <div className="video-container"><YouTube videoId="C9ALpMH3trI?si=pyf5TBuT2y3zHDti" options={options} onReady={this._onReady} id="video"/></div>;
+      return <div className="video-container"><YouTube iframeClassName="video-iframe" videoId="C9ALpMH3trI?si=pyf5TBuT2y3zHDti" options={options} onReady={this._onReady} id="video"/></div>;
     }
   
     _onReady(event) {

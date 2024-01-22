@@ -1,6 +1,6 @@
 .work__container {
     background-color: rgb(17, 21, 41);
-    padding-top: 125px;
+    padding-top: 150px;
 
     height: 100%;
 
@@ -9,14 +9,17 @@
 }
 .work__title {
     color: rgb(118, 231, 249);
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     margin: auto;
-    text-decoration: underline;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 25px;
 }
 .massive__container {
     display: flex;
     flex-direction: row;
+    margin:auto
 }
 .massive__image {
     width: 600px;
@@ -43,20 +46,44 @@
 
 
 @media only screen and (max-width: 600px) {
+    .work__container {
+        padding-top: 50px;;
+    }
     .massive__container {
-      flex-direction: column;
-      max-width: 95vw;
+      flex-direction: column-reverse;
+      max-width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .monkey__container {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    .massive__container:nth-child(odd) {
+        flex-direction: column;
     }
     .massive__description {
-        max-width: 95vw;
+        max-width: 100%;
         margin: 5px;
     }
     .monkey__text-container {
-        max-width: 85vw;
-        margin: 10px;
-        padding: 10px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .massive__text-container {
+       
     }
     .work__title {
         max-width: 75vw;
+    }
+    .massive__image {
+        max-width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .massive__title {
+        margin: 0 0 20px 0
     }
   }
