@@ -392,6 +392,7 @@
     }
     .hero__p {
       text-align: center;
+      margin: 20px;
     }
     .tile__section-container {
       margin: auto;
@@ -409,6 +410,7 @@
     }
     .hero__heading {
       max-width: 75vw;
+      margin: 0;
     }
     .learn__heading {
       max-width: 75vw;
