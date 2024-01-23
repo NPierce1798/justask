@@ -23,6 +23,7 @@
     color: rgb(222, 245, 255);
     font-size: 50px;
     font-weight: bold;
+
     /*margin: auto auto 5px auto;*/
   }
   .hero__p {
@@ -410,6 +411,7 @@
     .hero__heading {
       max-width: 75vw;
       margin: 0;
+      text-align: center;
     }
     .learn__heading {
       max-width: 75vw;
