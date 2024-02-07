@@ -75,6 +75,7 @@
 
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 15px;
 }
 .navbar__button-contact:hover{
   opacity: 0.7;

@@ -11,7 +11,7 @@ function Tile() {
             <div className="tile__section-container">
                 <a href="https://www.flaticon.com/free-icons/optimization-analysis" className="tile__a"><img className="tile__icon-custom" src={custom} /></a>
                 <p className="tile__title">Custom Solutions</p>
-                <p className="tile__description">We have years of experience building solutions for web apps, web scraping, predictive modeling, NLP and more.</p>
+                <p className="tile__description">We have years of experience building solutions for web apps, web scraping, predictive modeling, fine-tuning models, NLP and more.</p>
             </div>
 
             <div className="tile__divider"> </div>

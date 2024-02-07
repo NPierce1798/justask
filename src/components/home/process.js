@@ -10,14 +10,14 @@ function Process() {
             <div className="process__1">
                 <p className="process__title">1</p>
                 <div className="process__desc-container">
-                    <p className="process__description">Schedule a call with our team and talk about your project idea, goals, and strategy to create a plan of action.</p>
+                    <p className="process__description"><span className="big-desc">Schedule a call.</span>Meet with <a style={{ color: "aqua" }} href="https://www.linkedin.com/in/jawerty">Jared</a> and he will be your "CTO for an hour".</p>
                     <div className="process__underline"> </div>
                 </div>
                 <img src={arrow} className="process__arrow" />
 
                 <p className="process__title">2</p>
                 <div className="process__desc-container">
-                    <p className="process__description">We research any information necessary to bring you the best results possible. </p>
+                    <p className="process__description"><span className="big-desc">Meet with the team!</span>Talk to us about your issues and how we can be of service.</p>
                     <div className="process__underline"> </div>
                 </div>
                 <img src={arrow} className="process__arrow" />
@@ -25,7 +25,7 @@ function Process() {
 
                 <p className="process__title">3</p>
                 <div className="process__desc-container">
-                    <p className="process__description">We build your idea, step by step, keeping you up to date on our progress along the way.</p>
+                    <p className="process__description"><span className="big-desc">Designing and planning:</span> We work to scope out your project and he technologies required.</p>
                     <div className="process__underline"> </div>
                 </div>
                 <img src={arrow} className="process__arrow" />
@@ -33,7 +33,7 @@ function Process() {
 
                 <p className="process__title">4</p>
                 <div className="process__desc-container">
-                    <p className="process__description">The finished product! We showcase the complete result, and make final alterations.</p>
+                    <p className="process__description"><span className="big-desc">We build your startup!</span> We work together to make your project idea a reality.</p>
                     <div className="process__underline"> </div>
                 </div>
             </div>
